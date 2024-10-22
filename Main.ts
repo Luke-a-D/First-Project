@@ -1,4 +1,5 @@
-let variableA = 10;
-let variableB = 20;
-let sum = variableA+variableB;
+function addNumbers(a: number, b: number) {
+  return a + b;
+}
+const sum = addNumbers(4, 57);
 console.log(sum);
